@@ -32,13 +32,12 @@ int main(int argc, const char * argv[]) {
             c[i][j] = false;
         }
     }
-    
+
     queue<vector<int>> q;
     q.push({0,0});
     c[0][0] = true;
     g2[0][0] = 1;
 
-    
     while(!q.empty()){
         int ix = q.front()[0];
         int jx = q.front()[1];
