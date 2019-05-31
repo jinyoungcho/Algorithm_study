@@ -2,6 +2,8 @@
 
 #https://www.acmicpc.net/problem/1780
 
+# 재귀함수를 이용해서 조건에 맞지 않는다면 분할해서 정복하기!
+
 def d_q(i,j,size,MAP,dict):
 
     if size == 1:
