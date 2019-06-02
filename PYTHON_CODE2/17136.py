@@ -8,6 +8,7 @@ def check(r, c, size):
             if arr[r+i][c+j] == 0:
                 return False
     return True
+
 def coloring(r, c, size, color):
     global arr
     for i in range(size):
