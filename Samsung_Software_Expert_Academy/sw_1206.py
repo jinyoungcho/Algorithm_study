@@ -18,5 +18,6 @@ for t in range(1,T+1):
             ans += MAP[i] - temp
             # print(i, temp)
 
+
     print("#",end="")
     print(t,ans)
